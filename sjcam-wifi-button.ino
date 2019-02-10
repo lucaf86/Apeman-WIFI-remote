@@ -3,7 +3,7 @@
 /*********************************
   DEVICE SETTINGS
 *********************************/
-const char* ssid = "SJ4000WIFI5152c1d9188c"; // device Wifi name (SSID)
+const char* ssid = "SPORT DV58b3fc923f7c"; // device Wifi name (SSID)
 const char* pass = "12345678"; //device WiFi password
 
 const String PHOTO_MODE = "/?custom=1&cmd=3001&par=0";
@@ -17,7 +17,7 @@ const String STOP_RECORDING = "/?custom=1&cmd=2001&par=0";
 char deviceIP[14];
 const int httpPort = 80;
 
-const int buttonPin = 0; //GPIO0
+const int buttonPin = 14; //GPIO0
 
 int deviceState = 0; // 0 = disconected, 1 = connected
 int deviceMode = 0; // 0 photo, 1 video
