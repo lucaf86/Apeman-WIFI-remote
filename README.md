@@ -28,3 +28,7 @@ Work in progress..
 :white_large_square: SJCAM Sj5000X Elite  
 
 [action cam commands guide](http://sj4000programming.sourceforge.net/)
+
+## micropython flash cmd on ESP8285:
+python.exe esptool.py --port COM4 erase_flash
+python.exe esptool.py --port COM4 --baud 115200 write_flash -fm dout -fs 8m 0x00000 esp8266-20190125-v1.10.bin
